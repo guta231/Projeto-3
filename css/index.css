@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3D3D55;
+}
+nav{
+    background-color: blue;
+    height: 74px;
+    display: flex;
+    justify-content: right;
+    background-color: #3D3D55;
+}
+nav ul li a{
+    color: #F2f2f2;
+    text-decoration-line: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+.nome{
+    margin-right: 850px;
+    margin-top: 25px;
+    color: #F2f2f2;
+    font-size: 14px;
+}
